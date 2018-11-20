@@ -8,9 +8,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
 
     <title>Le Chocolat: Menu</title>
 
@@ -67,12 +69,126 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12">
-                <h3>Under heavy construction!!</h3>
+        <div class="container">
+            <div id="ads">
+                <!-- Category Card -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <span class="card-notify-badge">Classic Flavour</span>
+                                <span class="card-notify-year">1996</span>
+                                <img class="img-fluid" src="./images/white chocolate.jpg" alt="Alternate Text" />
+                            </div>
+                            <div class="card-image-overlay m-auto">
+                                <span class="card-detail-badge">$2.99</span>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="ad-title m-auto">
+                                    <h5>White Chocolate</h5>
+                                </div>
+                                <a class="ad-btn" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <span class="card-notify-badge">Even Better</span>
+                                <span class="card-notify-year">2004</span>
+                                <img class="img-fluid" src="./images/bakery-2179039__340.jpg" alt="Alternate Text" />
+                            </div>
+                            <div class="card-image-overlay m-auto">
+                                <span class="card-detail-badge">$3.99</span>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="ad-title m-auto">
+                                    <h5>Bakery</h5>
+                                </div>
+                                <a class="ad-btn" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <span class="card-notify-badge">Reivented</span>
+                                <span class="card-notify-year">2008</span>
+                                <img class="img-fluid" src="./images/strawberries.jpg" alt="Alternate Text" />
+                            </div>
+                            <div class="card-image-overlay m-auto">
+                                <span class="card-detail-badge">$3.49</span>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="ad-title m-auto">
+                                    <h5>Strawberries</h5>
+                                </div>
+                                <a class="ad-btn" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <span class="card-notify-badge">Crispy wafers</span>
+                                <span class="card-notify-year">2013</span>
+                                <img class="img-fluid" src="./images/wafer.jpg" alt="Alternate Text" />
+                            </div>
+                            <div class="card-image-overlay m-auto">
+                                <span class="card-detail-badge">$2.99</span>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="ad-title m-auto">
+                                    <h5>Wafers with whipped cream</h5>
+                                </div>
+                                <a class="ad-btn" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <span class="card-notify-badge">Many flavours</span>
+                                <span class="card-notify-year">2017</span>
+                                <img class="img-fluid" src="./images/ice cream.jpg" alt="Alternate Text" />
+                            </div>
+                            <div class="card-image-overlay m-auto">
+                                <span class="card-detail-badge">$4.99</span>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="ad-title m-auto">
+                                    <h5>Ice cream</h5>
+                                </div>
+                                <a class="ad-btn" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-image">
+                                <span class="card-notify-badge">Homemade recipe</span>
+                                <span class="card-notify-year">2010</span>
+                                <img class="img-fluid" src="./images/cookies.jpg" alt="Alternate Text" />
+                            </div>
+                            <div class="card-image-overlay m-auto">
+                                <span class="card-detail-badge">$3.49</span>
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="ad-title m-auto">
+                                    <h5>Cookies</h5>
+                                </div>
+                                <a class="ad-btn" href="#">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 
     <footer class="footer">
         <div class="container">
@@ -123,10 +239,13 @@
     </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
